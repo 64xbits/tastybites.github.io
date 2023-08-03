@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebeb;
+    box-shadow: 1px 1px 1px #ebebeb;
+}
+
+.top_main_navlinks {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.top_main_navlinks li {
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 20px;
+}
+ 
+.top_main_navlinks a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_main_search_bar {
+    display: flex;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.top_main_search_bar #searchbar {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+}
+
+.top_main_search_bar  button {
+    background-color: #00AEEF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.top_main_search_bar  button:hover {
+    background-color: #0077B3;
+}
+
+.top_main_sign_up{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.top_main_sign_up li {
+    list-style: none;
+    padding: 10px 20px;
+
+}
+
+.top_main_sign_up a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.under_top_main_slogan {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.under_top_main_slogan p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.under_top_main_text_address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.under_top_main_text_address h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0px;
+    padding: 30px;
+
+}
+
+.under_top_main_text_address_searchbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.under_top_main_text_address_searchbar #address_searchbar {
+    border: none;
+    padding: 30px 20px;
+    font-size: 20px;
+    width: 560px;
+    border: 2px solid black;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.under_top_main_text_address_searchbar button {
+    background-color: #00AEEF;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.under_top_main_text_address_searchbar button:hover {
+    background-color: #0077B3;
+}
+
+.under_top_main_text_address_sign_in {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.under_top_main_text_address_sign_in p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.under_top_main_text_address_sign_in a {
+    margin: 10px;
+}
